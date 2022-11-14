@@ -1,7 +1,8 @@
 const inputs = document.querySelectorAll("[data-input]");
 const form = document.querySelector("form");
 
-form.addEventListener("submit", () => {
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
   window.location.href = "https://github.com/Inkekk";
 });
 
