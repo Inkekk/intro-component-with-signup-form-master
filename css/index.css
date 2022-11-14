@@ -1,0 +1,152 @@
+body {
+  background-image: url(../images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  padding: 5rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 337.5px;
+}
+
+.title-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.free-warning {
+  padding: 1.5rem 4rem;
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 8px;
+  line-height: 24px;
+  -webkit-box-shadow: 2px 14px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 14px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 14px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.title-container p {
+  width: 95%;
+  line-height: 25px;
+}
+
+form {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 15px;
+  text-align: center;
+}
+
+input {
+  width: 94%;
+  align-self: center;
+  padding: 1rem 0;
+  padding-left: 12px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h2 span {
+  font-weight: 600;
+}
+
+button {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: hsl(154, 59%, 51%);
+  border-style: none;
+  height: 50px;
+  border-radius: 5px;
+}
+
+form p {
+  color: hsl(246, 25%, 77%);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+.campo-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menagem-erro {
+  color: hsl(0, 100%, 74%);
+  font-size: 12px;
+  font-style: italic;
+  align-self: flex-end;
+}
+
+.error {
+  background-image: url(../images/icon-error.svg);
+  background-position: 250px, 1px;
+  background-repeat: no-repeat;
+  border-color: hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  body {}
+
+  main {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+
+  .title-container {
+    text-align: start;
+    width: 65%;
+    justify-content: center;
+  }
+
+  form {
+    padding: 3rem 2rem;
+    gap: 35px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}

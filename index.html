@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <main>
+    <div class="title-container">
+      <h1>Learn to code by watching others</h1>
+
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="container">
+      <article class="free-warning">
+        <h2><span>Try it free 7 days</span> then $20/mo. thereafter</h2>
+      </article>
+      <form action>
+        <fieldset class="campo-formulario">
+          <input name="firstname" type="text" placeholder="First Name" required data-input minlength="3">
+          <span class="menagem-erro"></span>
+        </fieldset>
+
+        <fieldset class="campo-formulario">
+          <input name="lastname" type="text" placeholder="Last Name" required data-input minlength="3">
+          <span class="menagem-erro"></span>
+        </fieldset>
+
+        <fieldset class="campo-formulario">
+          <input name="email" type="email" placeholder="Email" required data-input>
+          <span class="menagem-erro"></span>
+        </fieldset>
+
+        <fieldset class="campo-formulario">
+          <input name="password" type="password" placeholder="Password" required data-input minlength="8"
+            maxlength="14">
+          <span class="menagem-erro"></span>
+        </fieldset>
+
+        <button type="submit">Claim your free trial</button>
+
+        <p>By clicking the button, you are agreeing to our <a href="https://github.com/Inkekk">Terms and Services</a>
+        </p>
+      </form>
+      <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/Inkekk">Kine</a>.
+        </p>
+      </footer>
+    </div>
+  </main>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
