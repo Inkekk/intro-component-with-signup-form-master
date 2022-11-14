@@ -11,21 +11,21 @@ inputs.forEach((input) => {
 
 const mensagens = {
   firstname: {
-    valueMissing: "O campo não pode estar vazio.",
-    tooShort: "Por favor, preencha um nome válido."
+    valueMissing: "The field cannot be empty.",
+    tooShort: "Please fill in a valid name."
   },
   lastname: {
-    valueMissing: "O campo não pode estar vazio.",
-    tooShort: "Por favor, preencha um nome válido."
+    valueMissing: "The field cannot be empty.",
+    tooShort: "Please fill in a valid name."
   },
   email: {
-    valueMissing: "O campo de e-mail não pode estar vazio.",
-    typeMismatch: "Por favor, preencha um email válido.",
-    tooShort: "Por favor, preencha um email válido."
+    valueMissing: "The field cannot be empty.",
+    typeMismatch: "Please fill in a valid email.",
+    tooShort: "Please fill in a valid email."
   },
   password: {
-    valueMissing: "O campo senha não pode estar vázio",
-    tooShort: "A senha deve ter entre 8 e 14 caracteres"
+    valueMissing: "The field cannot be empty.",
+    tooShort: "Password must be between 8 and 14 characters"
   }
 };
 
