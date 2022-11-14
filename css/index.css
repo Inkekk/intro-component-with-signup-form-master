@@ -127,8 +127,6 @@ a {
 }
 
 @media (min-width: 1024px) {
-  body {}
-
   main {
     flex-direction: row;
     max-width: 1000px;
